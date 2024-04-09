@@ -10,9 +10,10 @@ def Pascal(n):
             print(end=" ")
 
         for j in range(i+1):
-            #nCr = n! / ( (n-1)!r! )
+            #nCr = n! / ( (n-r)!r! )
             print(factorial(i) // (factorial(j) * factorial(i-j)), end=" ")
 
         print()
 
-Pascal(4)
+n = int(input("Enter n: "))
+Pascal(n)
