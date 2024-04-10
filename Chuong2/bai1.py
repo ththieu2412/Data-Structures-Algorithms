@@ -16,5 +16,6 @@ for i in range(n):
 
 for i in range(len(arr)):
     print(arr[i])
+    
 print(isDoiXung(arr))  
 
