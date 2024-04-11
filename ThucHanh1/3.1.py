@@ -1,5 +1,5 @@
 from google.colab import drive
-drive.mount('content/drive')
+drive.mount('/content/gdrive')
 
 def computeIoU(boxA, boxB):
 	# determine the (x, y)-coordinates of the intersection rectangle
