@@ -11,3 +11,13 @@ test = [3 , 4 , 5 , 1 , -44]
 assert max_in_window(num_list = test , k = 3) == [5 , 5 , 5]
 num_list = [3 , 4 , 5 , 1 , -44 , 5 ,10 , 12 ,33 , 1]
 print(max_in_window( num_list = num_list , k = 3))
+
+def my_function ( my_data ):
+    result = []
+    for element in data :
+        if element not in result :          
+            result.append(element)
+    return result
+    
+data = [{'id': ' M12'},10 , 20 , 30]
+print (my_function(data))
