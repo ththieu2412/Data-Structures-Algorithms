@@ -2,9 +2,10 @@ import numpy as np
 
 def isTrungHang(arr):
     tuple_arr = [tuple(row) for row in arr]
+    print(tuple_arr)
 
     #set khong nhan gia tri trung lao
-    return len(tuple_arr) != len(set(tuple_arr))
+    return len(arr) != len(set(arr))
 
 
 def main():
