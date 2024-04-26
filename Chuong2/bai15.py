@@ -28,13 +28,10 @@ def DayConDaiNhat(a, b):
                 longest_subsequence = subsequence
     return longest_subsequence
     
-    
-
-# Kiểm tra phương thức DayConDauTien
 def main():
     a = [6, 9,1, 2, 3, 4, 5,3,2]
     b = [6, 9, 8,1, 2, 3, 4, 5, 6, 7]
-    print(DayConDaiNhat(a, b))  # Kết quả: [1, 2, 3, 4, 5]
+    print(DayConDaiNhat(a, b))  
 
 if __name__ == "__main__":
     main()
