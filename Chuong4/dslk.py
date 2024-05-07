@@ -24,13 +24,19 @@ class dslk:
             return None
         else:
             current = self.head
-            previous = None
+            stack = []
             while current:
-                next = current.next
-                current.next = previous
-                previous = current
-                current = next
-            self.head = previous
+                stack.append(current)
+                current = current.next
+            
+            self.head = stack.pop() 
+            current = self.head
+            while stack:
+                current.next = stack.pop()
+                current = current.next
+            
+            current.next = None
+
  
     def inDanhSach(self):
         if self.isEmpty():
