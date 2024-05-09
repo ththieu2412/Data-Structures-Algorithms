@@ -64,7 +64,7 @@ class bt:
             elif self.bt[i] == ")":
                 while stack and stack[-1] != "(":
                     queue.append(stack.pop())
-                stack.pop() 
+                stack.pop()  #Xóa dấu "("
 
             i += 1  
 

@@ -209,5 +209,5 @@ print(cay.cayCon(cay_con))
 print("Cây cân bằng hoàn toàn? ")
 print(cay.checkCBHT(cay.root))
 
-#Cây tìm kiếm cân bằng tuần tự
+#Cây tìm kiếm tuần tự
 print(cay.BSTTuanTu())
